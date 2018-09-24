@@ -1,0 +1,80 @@
+﻿<Window x:Class="Population_Database.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Population_Database"
+        mc:Ignorable="d"
+        Title="Population Data" Height="700" Width="700" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <!--set background for the window -->
+        <TextBlock Grid.Row="0" Grid.RowSpan="5" Background="AntiqueWhite"/>
+
+        <TextBlock HorizontalAlignment="Stretch">
+            <Run Text="City Name"/>
+            <Run Text="Population"/>
+        </TextBlock>
+
+        <!--listbox to show the data-->
+        <ListBox Name="LbData" Grid.Row="1" ItemsSource="{Binding Cities}" Margin="20 10 20 0" 
+                 FontSize="30" HorizontalContentAlignment="Stretch" SelectedItem="{Binding SelectedCity}" 
+                 MouseDoubleClick="LbData_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Label Grid.Column="0" Content="{Binding City}"/>
+                        <Label Grid.Column="1" Content="{Binding Population}" HorizontalContentAlignment="Right" ContentStringFormat="n0"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!--textblocks to show the total and highest population-->
+        <TextBlock Grid.Row="2" TextAlignment="Center" Margin="10 5" FontSize="25" TextWrapping="WrapWithOverflow">
+            <Run Text="{Binding CityCount}" Foreground="Blue"/>
+            <Run Text="cities total population:"/>
+            <Run Text="{Binding TotalPopulation, StringFormat=n0}" Foreground="Blue"/>
+        </TextBlock>
+
+        <TextBlock Grid.Row="3" FontSize="25" Margin="10 0" TextAlignment="Center" TextWrapping="WrapWithOverflow">
+            <Run Text="The highest population is "/>
+            <Run Text="{Binding HighestPopulation, StringFormat=n0}" Foreground="Red"/>
+            <Run Text="in"/>
+            <Run Text="{Binding HighestCity}" Foreground="Red"/>
+        </TextBlock>
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--buttons for adding, editing, and deleting-->
+            <Button Grid.Row="0" Grid.Column="0" Content="New" FontSize="25" Name="BtnNew" Margin="80 10" Click="BtnNew_Click"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="Edit" FontSize="25" Name="BtnEdit" Margin="80 10" Click="BtnEdit_Click"/>
+            <Button Grid.Row="1" Grid.Column="0" Content="Delete" FontSize="25" Name="BtnDelete" Margin="80 10" Click="BtnDelete_Click"/>
+            <!--combobox for sorting-->
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal">
+                <Label Content="Sort by:" FontSize="20" Margin="5 10"/>
+                <ComboBox Name="CbSort" FontSize="18" Width="200" Margin="10" SelectedIndex="{Binding SelectedSort}" SelectionChanged="CbSort_SelectionChanged">
+                    <ComboBoxItem Name="CbItemName" Content="City Name"/>
+                    <ComboBoxItem Name="CbItemDESC" Content="Population-Descending"/>
+                    <ComboBoxItem Name="CbItemASC" Content="Population-Acending"/>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

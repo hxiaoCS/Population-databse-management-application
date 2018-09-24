@@ -1,0 +1,35 @@
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\bin\Debug\Population Database.exe.config
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\bin\Debug\Population Database.exe
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\bin\Debug\Population Database.pdb
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.csprojAssemblyReference.cache
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\MainWindow.g.cs
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\App.g.cs
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database_MarkupCompile.cache
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database_MarkupCompile.lref
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\MainWindow.baml
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.g.resources
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population_Database.Properties.Resources.resources
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.csproj.GenerateResource.cache
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.csproj.CoreCompileInputs.cache
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.exe
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\Population Database.pdb
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\CityDetail.g.cs
+C:\Users\Yuudachi\Desktop\Assignments\sorce\Population Database\Population Database\obj\Debug\CityDetail.baml
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\bin\Debug\Population Database.exe.config
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\bin\Debug\Population Database.exe
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\bin\Debug\Population Database.pdb
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.csprojAssemblyReference.cache
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\CityDetail.g.cs
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\MainWindow.g.cs
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\App.g.cs
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database_MarkupCompile.cache
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database_MarkupCompile.lref
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\CityDetail.baml
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\MainWindow.baml
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.g.resources
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population_Database.Properties.Resources.resources
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.csproj.GenerateResource.cache
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.csproj.CoreCompileInputs.cache
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.exe
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\Population Database.pdb
+C:\Users\billx\Desktop\PROG 8010\Willard-Population Database\Population Database\obj\Debug\GeneratedInternalTypeHelper.g.cs
